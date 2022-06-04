@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/testdb" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="admin" 
+              password="admin*"              
+              driverClassName="org.apache.derby.jdbc.ClientDriver"
+              url="jdbc:derby://localhost:1527/C:/derby/demo/databases/MyDbTest;create=true"
+              maxActive="10" 
+              maxIdle="4"/>
+
+</Context>
