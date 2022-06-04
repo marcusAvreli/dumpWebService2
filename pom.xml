@@ -19,6 +19,7 @@
     <maven.compiler.target>1.7</maven.compiler.target>
         <log4j.version>2.16.0</log4j.version>
 	  <slf4j.version>1.7.6</slf4j.version>
+	  <derbyclient.version>10.14.2.0</derbyclient.version>
   </properties>
 
   <dependencies>
@@ -55,7 +56,7 @@
 <dependency>
     <groupId>org.apache.derby</groupId>
     <artifactId>derbyclient</artifactId>
-    <version>10.14.2.0</version>
+    <version>${derbyclient.version}</version>
 </dependency>
   
   </dependencies>
